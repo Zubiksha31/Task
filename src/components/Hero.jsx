@@ -128,6 +128,39 @@ const Hero = () => {
         </div>
       </section>
 
+
+      <section className=" p-36">
+        <div>
+            <h1 className=" text-3xl font-bold py-7 ">Features</h1>
+        </div>
+
+        <div className=" flex justify-between gap-10">
+            <div className=" container bg-white text-black p-4 ">
+                <img className=" w-16" src={IconOne} alt="" />
+                <h1 className=" font-bold text-2xl text-center py-3">Endorsements</h1>
+                <p>Financial and non-financial policy changes can be made by brokers and agents.</p>
+            </div>
+
+            <div className=" container bg-white text-black p-4">
+                <img className=" w-16" src={IconTwo} alt="" />
+                <h1 className=" font-bold text-2xl text-center py-3">Real-time Messaging</h1>
+                <p className=" text-center">In-built messaging feature for collaboration between underwriters and agents.</p>
+            </div>
+
+            <div className=" container bg-white text-black p-4">
+                <img className=" w-16" src={IconThree} alt="" />
+                <h1 className=" font-bold text-2xl text-center py-3">Built-in Configurator via Excel</h1>
+                <p className=" text-center">Master-based product rate configurator for underwriters.</p>
+            </div>
+
+            <div className=" container bg-white text-black p-4">
+                <img className=" w-16" src={IconFour} alt="" />
+                <h1 className=" font-bold text-2xl text-center py-3">Wording Master</h1>
+                <p className=" text-center">Clauses, Warranties, Exclusions & Conditions can be customized during referral process.</p>
+            </div>
+        </div>
+      </section>
+
       
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16">
