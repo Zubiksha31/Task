@@ -1,0 +1,19 @@
+import { useState } from 'react'
+import React from 'react'
+import { Routes } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import Home from './pages/Home'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <Routes>
+        <Route path='/' element={ <Home/>} />
+      </Routes>
+    </>
+  )
+}
+
+export default App
